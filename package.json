@@ -7,13 +7,13 @@
   "packageManager": "pnpm@9.1.0",
   "description": "",
   "license": "MIT",
-  "homepage": "https://github.com/publisher-slug/ext-slug-extension#readme",
+  "homepage": "https://github.com/publisher-slug/ext-slug#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/publisher-slug/ext-slug-extension"
+    "url": "https://github.com/publisher-slug/ext-slug"
   },
   "bugs": {
-    "url": "https://github.com/publisher-slug/ext-slug-extension/issues"
+    "url": "https://github.com/publisher-slug/ext-slug/issues"
   },
   "categories": [
     "Other"
@@ -24,15 +24,12 @@
     "dist"
   ],
   "engines": {
-    "vscode": "^1.89.0"
+    "vscode": "^1.70.0"
   },
-  "activationEvents": [
-    "onStartupFinished"
-  ],
   "contributes": {
     "commands": [
       {
-        "title": "Open Webview",
+        "title": "Open Sample Webview",
         "command": "publisher-slug.preview"
       }
     ]

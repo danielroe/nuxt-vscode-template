@@ -4,7 +4,6 @@ import type { ExtensionContext } from 'vscode'
 import { prepareWebView } from './webview'
 
 export async function activate(context: ExtensionContext) {
-  console.log('hey there')
   const webview = vscode.commands.registerCommand('publisher-slug.preview', () => {
     const panel = prepareWebView(context)
 

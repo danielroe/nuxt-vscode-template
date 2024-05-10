@@ -10,6 +10,10 @@
       "presentation": {
         "reveal": "never"
       },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
       "problemMatcher": [
         {
           "base": "$ts-webpack-watch",
@@ -20,7 +24,6 @@
           }
         }
       ],
-      "group": "build"
     }
   ]
 }
