@@ -1,9 +1,5 @@
 <script setup lang="ts">
-import { onMounted } from 'vue'
-
-const nuxtApp = useNuxtApp()
-
-const vscode = nuxtApp.$vscode
+const vscode = useNuxtApp().$vscode
 
 function ping() {
   vscode.postMessage('ping')
