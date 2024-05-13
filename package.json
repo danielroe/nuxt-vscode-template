@@ -26,6 +26,9 @@
   "engines": {
     "vscode": "^1.70.0"
   },
+  "activationEvents": [
+    "onCommand:publisher-slug.preview"
+  ],
   "contributes": {
     "commands": [
       {
@@ -53,7 +56,7 @@
     "@antfu/ni": "^0.21.12",
     "@types/d3": "^7.4.3",
     "@types/node": "^18.19.33",
-    "@types/vscode": "^1.89.0",
+    "@types/vscode": "^1.70.0",
     "@vscode/vsce": "^2.26.1",
     "bumpp": "^9.4.1",
     "d3": "^7.9.0",
