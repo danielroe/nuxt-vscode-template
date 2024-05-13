@@ -24,5 +24,12 @@ export function prepareWebView(context: vscode.ExtensionContext) {
   )
 
   panel.webview.html = processedHTML
+
+  panel.webview.onDidReceiveMessage((message) => {
+    if (message === 'ping') {
+      vscode.window.showInformationMessage('Pinged from webview')
+      panel.webview.postMessage('pong')
+    }
+  })
   return panel
 }

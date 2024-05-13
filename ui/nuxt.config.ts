@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   ssr: false,
   devtools: { enabled: true },
-  experimental: { payloadExtraction: false },
+  experimental: { payloadExtraction: false, appManifest: false },
   nitro: {
     static: true,
     output: { publicDir: '~/dist' },
@@ -20,6 +20,7 @@ export default defineNuxtConfig({
     },
   },
   app: {
+
     head: {
       meta: [
         // TODO: set CSP details as VSCode requests
@@ -30,4 +31,5 @@ export default defineNuxtConfig({
       ],
     },
   },
+
 })
