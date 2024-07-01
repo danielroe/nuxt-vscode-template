@@ -57,7 +57,7 @@
     "@types/d3": "^7.4.3",
     "@types/node": "^18.19.33",
     "@types/vscode": "^1.70.0",
-    "@vscode/vsce": "^2.26.1",
+    "@vscode/vsce": "^2.29.0",
     "bumpp": "^9.4.1",
     "d3": "^7.9.0",
     "d3-flame-graph": "^4.1.3",
