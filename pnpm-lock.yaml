@@ -12,8 +12,8 @@ importers:
         specifier: 2.26.0
         version: 2.26.0(@typescript-eslint/utils@8.1.0(eslint@9.2.0)(typescript@5.4.5))(@vue/compiler-sfc@3.4.35)(eslint@9.2.0)(typescript@5.4.5)(vitest@1.6.0(@types/node@18.19.44)(terser@5.31.3))
       '@antfu/ni':
-        specifier: 0.21.12
-        version: 0.21.12
+        specifier: 0.22.4
+        version: 0.22.4
       '@types/d3':
         specifier: 7.4.3
         version: 7.4.3
@@ -133,8 +133,8 @@ packages:
   '@antfu/install-pkg@0.3.5':
     resolution: {integrity: sha512-HwIACY0IzrM7FGafMbWZOqEDBSfCwPcylu+GacaRcxJm4Yvvuh3Dy2vZwqdJAzXponc6aLO9FaH4l75pq8/ZSA==}
 
-  '@antfu/ni@0.21.12':
-    resolution: {integrity: sha512-2aDL3WUv8hMJb2L3r/PIQWsTLyq7RQr3v9xD16fiz6O8ys1xEyLhhTOv8gxtZvJiTzjTF5pHoArvRdesGL1DMQ==}
+  '@antfu/ni@0.22.4':
+    resolution: {integrity: sha512-uCzh43cmUwQQcgv2BPyo0JWOMgXhcaE+F2I6Ucmfc7f9ir52lfA4OtZXdfL5D8cMa5GAwuCSNqOshIol8YN82g==}
     hasBin: true
 
   '@antfu/utils@0.7.10':
@@ -5437,7 +5437,7 @@ snapshots:
     dependencies:
       '@jsdevtools/ez-spawn': 3.0.4
 
-  '@antfu/ni@0.21.12': {}
+  '@antfu/ni@0.22.4': {}
 
   '@antfu/utils@0.7.10': {}
 
