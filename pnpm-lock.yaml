@@ -10,7 +10,7 @@ importers:
     devDependencies:
       '@antfu/eslint-config':
         specifier: 2.26.0
-        version: 2.26.0(@typescript-eslint/utils@8.1.0(eslint@9.2.0)(typescript@5.4.5))(@vue/compiler-sfc@3.4.35)(eslint@9.2.0)(typescript@5.4.5)(vitest@1.6.0(@types/node@18.19.44)(terser@5.31.3))
+        version: 2.26.0(@typescript-eslint/utils@8.1.0(eslint@9.2.0)(typescript@5.4.5))(@vue/compiler-sfc@3.4.35)(eslint@9.2.0)(typescript@5.4.5)(vitest@1.6.0(@types/node@20.16.1)(terser@5.31.3))
       '@antfu/ni':
         specifier: 0.22.4
         version: 0.22.4
@@ -18,8 +18,8 @@ importers:
         specifier: 7.4.3
         version: 7.4.3
       '@types/node':
-        specifier: 18.19.44
-        version: 18.19.44
+        specifier: 20.16.1
+        version: 20.16.1
       '@types/vscode':
         specifier: 1.89.0
         version: 1.89.0
@@ -55,7 +55,7 @@ importers:
         version: 5.4.5
       vitest:
         specifier: 1.6.0
-        version: 1.6.0(@types/node@18.19.44)(terser@5.31.3)
+        version: 1.6.0(@types/node@20.16.1)(terser@5.31.3)
       vue-tsc:
         specifier: 2.0.29
         version: 2.0.29(typescript@5.4.5)
@@ -1574,8 +1574,8 @@ packages:
   '@types/mdast@3.0.15':
     resolution: {integrity: sha512-LnwD+mUEfxWMa1QpDraczIn6k0Ee3SMicuYSSzS6ZYl2gKS09EClnJYGd8Du6rfc5r/GZEk5o1mRb8TaTj03sQ==}
 
-  '@types/node@18.19.44':
-    resolution: {integrity: sha512-ZsbGerYg72WMXUIE9fYxtvfzLEuq6q8mKERdWFnqTmOvudMxnz+CBNRoOwJ2kNpFOncrKjT1hZwxjlFgQ9qvQA==}
+  '@types/node@20.16.1':
+    resolution: {integrity: sha512-zJDo7wEadFtSyNz5QITDfRcrhqDvQI1xQNQ0VoizPjM/dVAODqqIUWbJPkvsxmTI0MYRGRikcdjMPhOssnPejQ==}
 
   '@types/node@22.1.0':
     resolution: {integrity: sha512-AOmuRF0R2/5j1knA3c6G3HOk523Ga+l+ZXltX8SF1+5oqcXijjfTd8fY3XRZqSihEu9XhtQnKYLmkFaoxgsJHw==}
@@ -4921,11 +4921,11 @@ packages:
   underscore@1.13.6:
     resolution: {integrity: sha512-+A5Sja4HP1M08MaXya7p5LvjuM7K6q/2EaC0+iovj/wOcMsTzMvDFbasi/oSapiwOlt252IqsKqPjCl7huKS0A==}
 
-  undici-types@5.26.5:
-    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
-
   undici-types@6.13.0:
     resolution: {integrity: sha512-xtFJHudx8S2DSoujjMd1WeWvn7KKWFRESZTMeL1RptAYERu29D6jphMjjY+vn96jvN3kVPDNxU/E13VTaXj6jg==}
+
+  undici-types@6.19.6:
+    resolution: {integrity: sha512-e/vggGopEfTKSvj4ihnOLTsqhrKRN3LeO6qSN/GxohhuRv8qH9bNQ4B8W7e/vFL+0XTnmHPB4/kegunZGA4Org==}
 
   undici@5.28.4:
     resolution: {integrity: sha512-72RFADWFqKmUb2hmmvNODKL3p9hcB6Gt2DOQMis1SEBaV6a4MH8soBvzg+95CYhCKPFedut2JY9bMfrDl9D23g==}
@@ -5387,7 +5387,7 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
 
-  '@antfu/eslint-config@2.26.0(@typescript-eslint/utils@8.1.0(eslint@9.2.0)(typescript@5.4.5))(@vue/compiler-sfc@3.4.35)(eslint@9.2.0)(typescript@5.4.5)(vitest@1.6.0(@types/node@18.19.44)(terser@5.31.3))':
+  '@antfu/eslint-config@2.26.0(@typescript-eslint/utils@8.1.0(eslint@9.2.0)(typescript@5.4.5))(@vue/compiler-sfc@3.4.35)(eslint@9.2.0)(typescript@5.4.5)(vitest@1.6.0(@types/node@20.16.1)(terser@5.31.3))':
     dependencies:
       '@antfu/install-pkg': 0.3.5
       '@clack/prompts': 0.7.0
@@ -5395,7 +5395,7 @@ snapshots:
       '@stylistic/eslint-plugin': 2.6.4(eslint@9.2.0)(typescript@5.4.5)
       '@typescript-eslint/eslint-plugin': 8.1.0(@typescript-eslint/parser@8.1.0(eslint@9.2.0)(typescript@5.4.5))(eslint@9.2.0)(typescript@5.4.5)
       '@typescript-eslint/parser': 8.1.0(eslint@9.2.0)(typescript@5.4.5)
-      '@vitest/eslint-plugin': 1.0.3(@typescript-eslint/utils@8.1.0(eslint@9.2.0)(typescript@5.4.5))(eslint@9.2.0)(typescript@5.4.5)(vitest@1.6.0(@types/node@18.19.44)(terser@5.31.3))
+      '@vitest/eslint-plugin': 1.0.3(@typescript-eslint/utils@8.1.0(eslint@9.2.0)(typescript@5.4.5))(eslint@9.2.0)(typescript@5.4.5)(vitest@1.6.0(@types/node@20.16.1)(terser@5.31.3))
       eslint: 9.2.0
       eslint-config-flat-gitignore: 0.1.8
       eslint-flat-config-utils: 0.3.0
@@ -6997,7 +6997,7 @@ snapshots:
 
   '@types/http-proxy@1.17.14':
     dependencies:
-      '@types/node': 18.19.44
+      '@types/node': 20.16.1
 
   '@types/json-schema@7.0.15': {}
 
@@ -7005,9 +7005,9 @@ snapshots:
     dependencies:
       '@types/unist': 2.0.10
 
-  '@types/node@18.19.44':
+  '@types/node@20.16.1':
     dependencies:
-      undici-types: 5.26.5
+      undici-types: 6.19.6
 
   '@types/node@22.1.0':
     dependencies:
@@ -7208,13 +7208,13 @@ snapshots:
       vite: 5.3.5(@types/node@22.1.0)(terser@5.31.3)
       vue: 3.4.35(typescript@5.4.5)
 
-  '@vitest/eslint-plugin@1.0.3(@typescript-eslint/utils@8.1.0(eslint@9.2.0)(typescript@5.4.5))(eslint@9.2.0)(typescript@5.4.5)(vitest@1.6.0(@types/node@18.19.44)(terser@5.31.3))':
+  '@vitest/eslint-plugin@1.0.3(@typescript-eslint/utils@8.1.0(eslint@9.2.0)(typescript@5.4.5))(eslint@9.2.0)(typescript@5.4.5)(vitest@1.6.0(@types/node@20.16.1)(terser@5.31.3))':
     dependencies:
       eslint: 9.2.0
     optionalDependencies:
       '@typescript-eslint/utils': 8.1.0(eslint@9.2.0)(typescript@5.4.5)
       typescript: 5.4.5
-      vitest: 1.6.0(@types/node@18.19.44)(terser@5.31.3)
+      vitest: 1.6.0(@types/node@20.16.1)(terser@5.31.3)
 
   '@vitest/expect@1.6.0':
     dependencies:
@@ -10925,10 +10925,10 @@ snapshots:
 
   underscore@1.13.6: {}
 
-  undici-types@5.26.5: {}
-
   undici-types@6.13.0:
     optional: true
+
+  undici-types@6.19.6: {}
 
   undici@5.28.4:
     dependencies:
@@ -11108,13 +11108,13 @@ snapshots:
     dependencies:
       vite: 5.3.5(@types/node@22.1.0)(terser@5.31.3)
 
-  vite-node@1.6.0(@types/node@18.19.44)(terser@5.31.3):
+  vite-node@1.6.0(@types/node@20.16.1)(terser@5.31.3):
     dependencies:
       cac: 6.7.14
       debug: 4.3.5
       pathe: 1.1.2
       picocolors: 1.0.0
-      vite: 5.2.11(@types/node@18.19.44)(terser@5.31.3)
+      vite: 5.2.11(@types/node@20.16.1)(terser@5.31.3)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -11198,13 +11198,13 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  vite@5.2.11(@types/node@18.19.44)(terser@5.31.3):
+  vite@5.2.11(@types/node@20.16.1)(terser@5.31.3):
     dependencies:
       esbuild: 0.20.2
       postcss: 8.4.38
       rollup: 4.17.2
     optionalDependencies:
-      '@types/node': 18.19.44
+      '@types/node': 20.16.1
       fsevents: 2.3.3
       terser: 5.31.3
 
@@ -11218,7 +11218,7 @@ snapshots:
       fsevents: 2.3.3
       terser: 5.31.3
 
-  vitest@1.6.0(@types/node@18.19.44)(terser@5.31.3):
+  vitest@1.6.0(@types/node@20.16.1)(terser@5.31.3):
     dependencies:
       '@vitest/expect': 1.6.0
       '@vitest/runner': 1.6.0
@@ -11237,11 +11237,11 @@ snapshots:
       strip-literal: 2.1.0
       tinybench: 2.8.0
       tinypool: 0.8.4
-      vite: 5.2.11(@types/node@18.19.44)(terser@5.31.3)
-      vite-node: 1.6.0(@types/node@18.19.44)(terser@5.31.3)
+      vite: 5.2.11(@types/node@20.16.1)(terser@5.31.3)
+      vite-node: 1.6.0(@types/node@20.16.1)(terser@5.31.3)
       why-is-node-running: 2.2.2
     optionalDependencies:
-      '@types/node': 18.19.44
+      '@types/node': 20.16.1
     transitivePeerDependencies:
       - less
       - lightningcss
