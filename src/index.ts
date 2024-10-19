@@ -1,5 +1,5 @@
-import * as vscode from 'vscode'
 import type { ExtensionContext } from 'vscode'
+import * as vscode from 'vscode'
 
 import { prepareWebView } from './webview'
 
