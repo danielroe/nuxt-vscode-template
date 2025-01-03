@@ -55,7 +55,7 @@
     "@antfu/eslint-config": "3.12.1",
     "@antfu/ni": "0.23.2",
     "@types/d3": "7.4.3",
-    "@types/node": "22.10.3",
+    "@types/node": "22.10.5",
     "@types/vscode": "1.96.0",
     "@vscode/vsce": "3.2.1",
     "bumpp": "9.9.2",
