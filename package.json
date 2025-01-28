@@ -67,7 +67,7 @@
     "rollup-plugin-esbuild": "6.1.1",
     "rollup-plugin-vue": "6.0.0",
     "typescript": "5.7.3",
-    "vitest": "3.0.2",
+    "vitest": "3.0.4",
     "vue-tsc": "2.2.0"
   }
 }
