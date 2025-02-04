@@ -4,7 +4,7 @@
   "displayName": "ext-slug",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "pnpm@9.15.5",
+  "packageManager": "pnpm@10.2.0",
   "description": "",
   "license": "MIT",
   "homepage": "https://github.com/publisher-slug/ext-slug#readme",
