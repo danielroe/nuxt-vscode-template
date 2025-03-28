@@ -19,8 +19,7 @@ export function prepareWebView(context: vscode.ExtensionContext) {
       vscode.Uri.file(
         join(context.extensionPath, 'ui/dist', source),
       ),
-    ).toString())
-    ,
+    ).toString()),
   )
 
   panel.webview.html = processedHTML
