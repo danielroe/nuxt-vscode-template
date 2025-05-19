@@ -57,7 +57,7 @@
     "@types/d3": "7.4.3",
     "@types/node": "22.15.19",
     "@types/vscode": "1.100.0",
-    "@vscode/vsce": "3.4.0",
+    "@vscode/vsce": "3.4.1",
     "bumpp": "10.1.1",
     "d3": "7.9.0",
     "d3-flame-graph": "4.1.3",
