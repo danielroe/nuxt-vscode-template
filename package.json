@@ -43,7 +43,7 @@
     "ui:dev": "nuxt dev ui",
     "ui:build": "nuxt build ui",
     "lint": "eslint .",
-    "prepare": "nuxi prepare ui",
+    "prepare": "nuxt prepare ui",
     "vscode:prepublish": "nr build",
     "publish": "vsce publish --no-dependencies",
     "pack": "vsce package --no-dependencies",
