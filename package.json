@@ -52,7 +52,7 @@
     "release": "bumpp && nr publish"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "4.19.0",
+    "@antfu/eslint-config": "5.0.0",
     "@antfu/ni": "25.0.0",
     "@types/d3": "7.4.3",
     "@types/node": "22.16.5",
