@@ -4,7 +4,7 @@
   "displayName": "ext-slug",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "pnpm@10.19.0",
+  "packageManager": "pnpm@10.20.0",
   "description": "",
   "license": "MIT",
   "homepage": "https://github.com/publisher-slug/ext-slug#readme",
@@ -52,10 +52,10 @@
     "release": "bumpp && nr publish"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "6.1.0",
+    "@antfu/eslint-config": "6.2.0",
     "@antfu/ni": "27.0.1",
     "@types/d3": "7.4.3",
-    "@types/node": "22.18.12",
+    "@types/node": "22.19.0",
     "@types/vscode": "1.105.0",
     "@vscode/vsce": "3.6.2",
     "bumpp": "10.3.1",
@@ -68,6 +68,6 @@
     "rollup-plugin-vue": "6.0.0",
     "typescript": "5.9.3",
     "vitest": "4.0.4",
-    "vue-tsc": "3.1.2"
+    "vue-tsc": "3.1.3"
   }
 }
