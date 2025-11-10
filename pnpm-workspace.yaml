@@ -2,3 +2,5 @@ packages:
   - playground
   - examples/*
   - ui
+trustPolicy: no-downgrade
+
