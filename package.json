@@ -53,7 +53,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "6.2.0",
-    "@antfu/ni": "27.0.1",
+    "@antfu/ni": "28.1.0",
     "@types/d3": "7.4.3",
     "@types/node": "24.10.0",
     "@types/vscode": "1.105.0",
