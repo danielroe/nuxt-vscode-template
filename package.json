@@ -61,7 +61,7 @@
     "bumpp": "10.3.1",
     "d3": "7.9.0",
     "d3-flame-graph": "5.0.0",
-    "eslint": "9.39.4",
+    "eslint": "10.0.3",
     "open": "11.0.0",
     "rollup": "4.53.2",
     "rollup-plugin-esbuild": "6.2.1",
