@@ -2,3 +2,13 @@ packages:
   - playground
   - examples/*
   - ui
+
+allowBuilds:
+  '@vscode/vsce-sign': false
+  esbuild: false
+  keytar: false
+  vue-demi: false
+
+ignoreWorkspaceRootCheck: true
+
+nodeLinker: hoisted
