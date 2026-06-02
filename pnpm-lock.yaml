@@ -12,8 +12,8 @@ importers:
         specifier: 6.2.0
         version: 6.2.0(@vue/compiler-sfc@3.5.35)(eslint@9.39.4(jiti@2.7.0))(typescript@5.9.3)(vitest@4.1.8(@types/node@24.10.0)(vite@7.3.1(@types/node@24.10.0)(jiti@2.7.0)(terser@5.31.0)(yaml@2.8.2)))
       '@antfu/ni':
-        specifier: 29.0.0
-        version: 29.0.0
+        specifier: 30.1.0
+        version: 30.1.0
       '@types/d3':
         specifier: 7.4.3
         version: 7.4.3
@@ -145,9 +145,9 @@ packages:
   '@antfu/install-pkg@1.1.0':
     resolution: {integrity: sha512-MGQsmw10ZyI+EJo45CdSER4zEb+p31LpDAFp2Z3gkSd1yqVZGi0Ebx++YTEMonJy4oChEMLsxZ64j8FH6sSqtQ==}
 
-  '@antfu/ni@29.0.0':
-    resolution: {integrity: sha512-JbKx3nSr2HRLtchKfg6RCBB6lwJvYZIeGFTO0fzjXdaekIFHPMN6gfnRUZU1raPvXTVF7EqGTWEreDnZVvrzwQ==}
-    engines: {node: '>=20'}
+  '@antfu/ni@30.1.0':
+    resolution: {integrity: sha512-3VuAbPjgY52rQNn4wABaXMhBU2Oq91uy6L8nX49eJ35OLI68CyckGU+HZxcaHix4ymuGM2nFL1D6sLpgODK5xw==}
+    engines: {node: '>=20.19.0'}
     hasBin: true
 
   '@antfu/utils@0.7.8':
@@ -6465,9 +6465,8 @@ snapshots:
       package-manager-detector: 1.6.0
       tinyexec: 1.2.4
 
-  '@antfu/ni@29.0.0':
+  '@antfu/ni@30.1.0':
     dependencies:
-      ansis: 4.3.1
       fzf: 0.5.2
       package-manager-detector: 1.6.0
       tinyexec: 1.2.4
