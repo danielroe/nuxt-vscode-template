@@ -21,7 +21,7 @@ jobs:
 
       - uses: pnpm/setup@84cb39b217b10273981911c288cd62326dc7c6d2 # v2
         with:
-          runtime: node@22
+          runtime: node@24
           cache: true
 
       - name: Lint
@@ -34,7 +34,7 @@ jobs:
 
       - uses: pnpm/setup@84cb39b217b10273981911c288cd62326dc7c6d2 # v2
         with:
-          runtime: node@22
+          runtime: node@24
           cache: true
 
       - name: Typecheck
